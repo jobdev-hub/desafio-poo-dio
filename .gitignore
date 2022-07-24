@@ -1,6 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/.idea
+/out
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode

@@ -3,6 +3,7 @@
 /workspace.xml
 /.idea
 /out
+/target
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode

@@ -7,16 +7,16 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-public class Mentoria extends Conteudo {
+public class Mentoria extends Conteudo { //herança
     private LocalDate data;
 
     @Override
     public double calcularXp() {
-        return XP_PADRAO + 20d;
+        return XP_PADRAO + 20d; //polimorfismo e encapsulamento
     }
 
     @Override
     public String toString() {
-        return "Mentoria{titulo='" + getTitulo() + "', descricao='" + getDescricao() + "', data=" + data + '}';
+        return "Mentoria{titulo='" + getTitulo() + "', descricao='" + getDescricao() + "', data=" + data + '}'; //polimorfismo
     }
 }
